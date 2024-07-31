@@ -1,0 +1,8 @@
+<div>
+    <p><strong>Nombre: </strong> {{profile?.givenName}}</p>
+    <p><strong>Apellido/s: </strong> {{profile?.surname}}</p>
+    <p><strong>Email: </strong> {{profile?.userPrincipalName}}</p>
+    <p><strong>Id: </strong> {{profile?.id}}</p>
+</div>
+
+<a mat-button [routerLink]="['detail']">Clickea para mas detalles</a>

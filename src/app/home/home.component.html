@@ -1,0 +1,10 @@
+<div *ngIf="!loginDisplay">
+    <p class="welcome">Bienvenido a MSAL.js v2 con Angular 11</p>
+    <p>Ejemplo de SPA utilizando MSAL v2 para Angular 11, configuración personalizada, vía redirección o popup</p>
+    <p>Identificate para ver tu información de perfil.</p>
+</div>
+
+<div *ngIf="loginDisplay">
+    <p>Inicio de sesión exitoso!</p>
+    <p>Solicita tu información de perfil haciendo clic en el botón "Perfil" en la barra de navegación.</p>
+</div>
